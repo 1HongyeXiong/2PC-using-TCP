@@ -1,0 +1,58 @@
+Transaction: $200.000000
+    From: localhost:10101 account #account1
+    To: localhost:10102 account #account2
+Transaction: $500.000000
+    From: localhost:10102 account #account2
+    To: localhost:10103 account #account3
+Connected to participant localhost:10101
+Connected to participant localhost:10102
+Starting transaction: txn_0
+Sending message 'VOTE-REQUEST txn_0 account1 -200.000000' to localhost:10101
+Sending message 'VOTE-REQUEST txn_0 account2 200.000000' to localhost:10102
+Sending message 'GLOBAL-COMMIT txn_0 account1 -200.000000' to localhost:10101
+Sending message 'GLOBAL-COMMIT txn_0 account2 200.000000' to localhost:10102
+Transaction txn_0 committed.
+
+Connected to participant localhost:10103
+Starting transaction: txn_1
+Sending message 'VOTE-REQUEST txn_1 account2 -500.000000' to localhost:10102
+Sending message 'VOTE-REQUEST txn_1 account3 500.000000' to localhost:10103
+Sending message 'GLOBAL-COMMIT txn_1 account2 -500.000000' to localhost:10102
+Sending message 'GLOBAL-COMMIT txn_1 account3 500.000000' to localhost:10103
+Transaction txn_1 committed.
+
+Transaction: $200.000000
+    From: localhost:10101 account #account1
+    To: localhost:10102 account #account2
+Transaction: $500.000000
+    From: localhost:10102 account #account2
+    To: localhost:10103 account #account3
+Connected to participant localhost:10101
+Connected to participant localhost:10102
+Starting transaction: txn_0
+Sending message 'VOTE-REQUEST txn_0 account1 -200.000000' to localhost:10101
+Sending message 'VOTE-REQUEST txn_0 account2 200.000000' to localhost:10102
+Sending message 'GLOBAL-COMMIT txn_0 account1 -200.000000' to localhost:10101
+Sending message 'GLOBAL-COMMIT txn_0 account2 200.000000' to localhost:10102
+Transaction txn_0 committed.
+
+Connected to participant localhost:10103
+Starting transaction: txn_1
+Sending message 'VOTE-REQUEST txn_1 account2 -500.000000' to localhost:10102
+Sending message 'VOTE-REQUEST txn_1 account3 500.000000' to localhost:10103
+Sending message 'GLOBAL-COMMIT txn_1 account2 -500.000000' to localhost:10102
+Sending message 'GLOBAL-COMMIT txn_1 account3 500.000000' to localhost:10103
+Transaction txn_1 committed.
+
+Transaction: $200.000000
+    From: localhost:10101 account #account1
+    To: localhost:10102 account #account2
+Connected to participant localhost:10101
+Connected to participant localhost:10102
+Starting transaction: txn_0
+Sending message 'VOTE-REQUEST txn_0 account1 -200.000000' to localhost:10101
+Sending message 'VOTE-REQUEST txn_0 account2 200.000000' to localhost:10102
+Sending message 'GLOBAL-COMMIT txn_0 account1 -200.000000' to localhost:10101
+Sending message 'GLOBAL-COMMIT txn_0 account2 200.000000' to localhost:10102
+Transaction txn_0 committed.
+

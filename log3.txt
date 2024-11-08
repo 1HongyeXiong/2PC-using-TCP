@@ -1,0 +1,12 @@
+Transaction service on port 10103 (Ctrl-c to stop)
+Accepting coordinator connection. State: INIT
+Holding -500.000000 from the account account3
+Got VOTE-REQUEST, replying VOTE-COMMIT. State: READY
+Got GLOBAL-COMMIT, replying ACK. State: COMMIT
+Releasing hold from the account account3
+Transaction service on port 10103 (Ctrl-c to stop)
+Accepting coordinator connection. State: INIT
+Holding -500.000000 from the account account3
+Got VOTE-REQUEST, replying VOTE-COMMIT. State: READY
+Got GLOBAL-COMMIT, replying ACK. State: COMMIT
+Releasing hold from the account account3

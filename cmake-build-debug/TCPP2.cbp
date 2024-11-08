@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TCPP2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hongyexiong/Downloads/TCPP2 5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TCPP2">
+				<Option output="/Users/hongyexiong/Downloads/TCPP2 5/cmake-build-debug/TCPP2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hongyexiong/Downloads/TCPP2 5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 TCPP2"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TCPP2/fast">
+				<Option output="/Users/hongyexiong/Downloads/TCPP2 5/cmake-build-debug/TCPP2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hongyexiong/Downloads/TCPP2 5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 TCPP2/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hongyexiong/Downloads/TCPP2 5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hongyexiong/Downloads/TCPP2 5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/hongyexiong/Downloads/TCPP2\ 5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/BankServer.cpp">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/BankServer.h">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/CoordinatorClient.cpp">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/CoordinatorClient.h">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/Logger.cpp">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/Logger.h">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/TCPClient.cpp">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/TCPClient.h">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/TCPServer.cpp">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/TCPServer.h">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/coordinator.cpp">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/participant.cpp">
+			<Option target="TCPP2"/>
+		</Unit>
+		<Unit filename="/Users/hongyexiong/Downloads/TCPP2 5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

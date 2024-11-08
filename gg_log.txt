@@ -1,0 +1,10 @@
+Transaction service on port 10034 (Ctrl-c to stop)
+Loaded account 9910139001 with balance: $100.000000
+Accepting coordinator connection. State: INIT
+Holding amount: -200.000000 for account: 9910139001
+Got VOTE-REQUEST, replying VOTE-COMMIT. State: READY
+Got GLOBAL-COMMIT, replying ACK. State: COMMIT
+Committing -200.000000 from account 9910139001
+Transaction service on port 10034 (Ctrl-c to stop)
+Accepting coordinator connection. State: INIT
+Got GLOBAL-ABORT, replying ACK. State: ABORT
